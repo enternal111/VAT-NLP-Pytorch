@@ -1,5 +1,6 @@
 # VAT-NLP-Pytorch
 VAT（虚拟对抗训练）在NLP任务上的Pytorch实现  
+
 训练代码如下：  
 vat = VATLoss(model, eps = 2)  
 outputs = model(input_ids, attention_mask=attention_mask, labels=labels)  
